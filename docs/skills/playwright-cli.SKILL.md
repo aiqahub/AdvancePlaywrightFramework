@@ -2,14 +2,14 @@
 name: Playwright CLI Browser Automation
 description: Command-line browser automation with Playwright CLI for navigation, snapshots, uploads, downloads, tracing, and QA workflows.
 version: 1.0.0
-author: Pramod
+author: Satyabrata
 license: MIT
 testingTypes: [e2e, visual, accessibility]
 frameworks: [playwright]
 languages: [javascript, typescript]
 domains: [web]
 agents: [claude-code, cursor, github-copilot, windsurf, codex, aider, continue, cline, zed, bolt, opencode, gemini-cli, amp]
-githubUrl: https://github.com/PramodDutta/LearningPlaywrightBatch
+githubUrl: https://github.com/SatyabrataDash/LearningPlaywrightBatch
 ---
 
 # Browser Automation with playwright-cli

@@ -2,8 +2,8 @@
 
 This file captures the full Claude Code conversation used to bootstrap **Phase 1** of the Advance Playwright Framework. Students can replay these prompts step by step to reproduce the framework themselves.
 
-Author: Pramod Dutta — The Testing Academy
-Repo: https://github.com/PramodDutta/AdvancePlaywrightFramework1x
+Author: Satyabrata Dash — The Testing Academy
+Repo: https://github.com/SatyabrataDash/AdvancePlaywrightFramework1x
 
 ---
 
@@ -260,7 +260,7 @@ All enforce the same rule: `npm run typecheck && npm run lint` after every test 
 ## How to replay Phase 1
 
 ```bash
-git clone https://github.com/PramodDutta/AdvancePlaywrightFramework1x.git
+git clone https://github.com/SatyabrataDash/AdvancePlaywrightFramework1x.git
 cd AdvancePlaywrightFramework1x
 npm install
 npx playwright install

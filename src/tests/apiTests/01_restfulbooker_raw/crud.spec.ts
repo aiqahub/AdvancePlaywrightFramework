@@ -37,7 +37,7 @@ test.describe.serial('Restful Booker CRUD API', () => {
     };
     const bookingFlowState: BookingFlowState = {};
     const payload: BookingPayload = {
-        firstname: 'Pramod',
+        firstname: 'Satyabrata',
         lastname: 'Dutta',
         totalprice: 111,
         depositpaid: true,

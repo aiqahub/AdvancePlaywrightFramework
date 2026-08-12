@@ -153,7 +153,7 @@ const Outro: React.FC = () => (
         src/ai · @ai/index · llmGateway()
       </div>
       <div style={{ fontSize: 28, color: '#9fb3c8', marginTop: 30 }}>
-        Built with 💚 by Pramod Dutta · The Testing Academy
+        Built with 💚 by Satyabrata Dash · The Testing Academy
       </div>
     </div>
   </Center>

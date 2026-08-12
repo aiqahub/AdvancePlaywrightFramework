@@ -9,7 +9,7 @@ test.describe('Restful Booker booking API', () => {
             'Content-Type': 'application/json',
         };
         const payload = {
-            firstname: 'Pramod',
+            firstname: 'Satyabrata',
             lastname: 'Dutta',
             totalprice: 111,
             depositpaid: true,

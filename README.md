@@ -1,6 +1,6 @@
 # Advance Playwright Framework (1.x)
 
-> Production-grade Playwright + TypeScript automation framework built by [Pramod Dutta](https://thetestingacademy.com) for **The Testing Academy**.
+> Production-grade Playwright + TypeScript automation framework built by [Satyabrata Dash](https://thetestingacademy.com) for **The Testing Academy**.
 
 [![Playwright](https://img.shields.io/badge/Playwright-1.60-2EAD33?logo=playwright&logoColor=white)](https://playwright.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -75,7 +75,7 @@ Everything you need to clone, configure, and run the suite.
 ## Install
 
 ```bash
-git clone https://github.com/PramodDutta/AdvancePlaywrightFramework1x.git
+git clone https://github.com/SatyabrataDash/AdvancePlaywrightFramework1x.git
 cd AdvancePlaywrightFramework1x
 npm install
 npx playwright install --with-deps
@@ -115,7 +115,7 @@ DEV_BASE_URL=http://localhost:3000
 API_BASE_URL=https://restful-booker.herokuapp.com
 LOG_LEVEL=info            # winston log level
 TEST_ENV=UAT              # shown in TTA report
-TEST_AUTHOR=Pramod
+TEST_AUTHOR=Satyabrata
 
 # --- AI Agent Factory (src/ai) ---
 LLM_PROVIDER=openrouter   # openrouter | groq | openai
@@ -620,7 +620,7 @@ import { ApiHelper } from '@utils/ApiHelper';
 test('POST /booking creates a booking @p0', async ({ request }) => {
     const api = new ApiHelper(request);
     const response = await api.post('/booking', {
-        firstname: 'Pramod',
+        firstname: 'Satyabrata',
         lastname: 'Dutta',
         totalprice: 111,
         depositpaid: true,
@@ -917,7 +917,7 @@ Full prompt-by-prompt build log for Phase 1 lives at [`docs/phase1/prompts.md`](
 
 ## Author
 
-Built with 💚 by **[Pramod Dutta](https://thetestingacademy.com)** — [The Testing Academy](https://www.youtube.com/@TheTestingAcademy).
+Built with 💚 by **[Satyabrata Dash](https://thetestingacademy.com)** — [The Testing Academy](https://www.youtube.com/@TheTestingAcademy).
 
 ---
 
